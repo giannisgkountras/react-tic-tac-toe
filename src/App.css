@@ -33,6 +33,36 @@
   align-items: center;
 }
 
+.box-button{
+  width: 180px;
+  height: 180px;
+  background-color: #61dafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  width: 180px;
+  height: 180px;
+  background-color: #184048;
+  margin: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.red{
+  background-color: red;
+  pointer-events: none;
+}
+
+.blue{
+  background-color: blue;
+  pointer-events: none;
+}
 .App-link {
   color: #61dafb;
 }
