@@ -106,3 +106,15 @@
 .details{
   margin: 10rem;
 }
+
+.win-red{
+    background-image: url('./assets/win-red.jpg');
+}
+
+.win-blue{
+  background-image: url('./assets/win-blue.jpg');
+}
+
+.no-touch{
+  pointer-events: none;
+}
