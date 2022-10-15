@@ -112,9 +112,9 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     } else if (winner === "true") {
       setbyplayer1(true);
     }
-    document.getElementById("1").classList.add("win-red");
-    document.getElementById("4").classList.add("win-red");
-    document.getElementById("7").classList.add("win-red");
+    document.getElementById("3").classList.add("win-red");
+    document.getElementById("6").classList.add("win-red");
+    document.getElementById("9").classList.add("win-red");
 
     document.getElementById("1").classList.add("no-touch");
     document.getElementById("2").classList.add("no-touch");
@@ -280,9 +280,9 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     } else if (winner === "true") {
       setbyplayer1(true);
     }
-    document.getElementById("1").classList.add("win-blue");
-    document.getElementById("4").classList.add("win-blue");
-    document.getElementById("7").classList.add("win-blue");
+    document.getElementById("3").classList.add("win-blue");
+    document.getElementById("6").classList.add("win-blue");
+    document.getElementById("9").classList.add("win-blue");
 
     document.getElementById("1").classList.add("no-touch");
     document.getElementById("2").classList.add("no-touch");

@@ -1,4 +1,9 @@
-const playagain = (setWinner, setGameover) => {
+const playagain = (setWinner, setGameover, setplayerOnePoints, setplayerTwoPoints, winner, playerOnePoints, playerTwoPoints) => {
+  if (winner === "one") {
+    setplayerOnePoints(playerOnePoints + 1);
+  } else if (winner === "two") {
+    setplayerTwoPoints(playerTwoPoints + 1);
+  }
   setWinner("");
   setGameover(false);
   document.getElementById("1").className = "box-container";

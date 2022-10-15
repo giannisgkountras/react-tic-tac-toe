@@ -7,6 +7,8 @@ function App() {
   const [byplayer1, setbyplayer1] = useState(true);
   const [gameover, setGameover] = useState(false);
   const [winner, setWinner] = useState("None");
+  const [playerOnePoints, setplayerOnePoints] = useState(0);
+  const [playerTwoPoints, setplayerTwoPoints] = useState(0);
 
   return (
     <div className="App">
@@ -19,7 +21,7 @@ function App() {
               <button
                 className="play-again"
                 onClick={() => {
-                  playagain(setWinner, setGameover);
+                  playagain(setWinner, setGameover, setplayerOnePoints, setplayerTwoPoints, winner, playerOnePoints, playerTwoPoints);
                 }}
               >
                 Play again
@@ -121,6 +123,9 @@ function App() {
                   }}
                 ></div>
               </div>
+            </div>
+            <div className="score">
+              Score: {playerOnePoints}-{playerTwoPoints}
             </div>
           </div>
         </div>
