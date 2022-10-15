@@ -14,7 +14,8 @@ function App() {
         <div className="side">
           {gameover ? (
             <div className="details">
-              <div className="winner">{winner !== "" ? `Player ${winner} wins!` : "It's a tie!"}</div>
+              {winner === "one" || winner === "two" ? <div className="winner">Player {winner} wins!</div> : <div className="winner">It's a tie!</div>}
+
               <button
                 className="play-again"
                 onClick={() => {
@@ -29,7 +30,8 @@ function App() {
           )}
 
           <div>
-            <div className="player-title">Player {byplayer1 ? "one" : "two"}'s turn</div>
+            {gameover ? <></> : <div className="player-title">Player {byplayer1 ? "one" : "two"}'s turn</div>}
+
             <div className="board-container">
               <div className="row">
                 <div

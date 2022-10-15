@@ -20,8 +20,7 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-  if (document.getElementById("4").classList.contains("red") && document.getElementById("5").classList.contains("red") && document.getElementById("6").classList.contains("red")) {
+  } else if (document.getElementById("4").classList.contains("red") && document.getElementById("5").classList.contains("red") && document.getElementById("6").classList.contains("red")) {
     setGameover(true);
     setWinner("one");
     if (winner === "one") {
@@ -42,8 +41,7 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-  if (document.getElementById("7").classList.contains("red") && document.getElementById("8").classList.contains("red") && document.getElementById("9").classList.contains("red")) {
+  } else if (document.getElementById("7").classList.contains("red") && document.getElementById("8").classList.contains("red") && document.getElementById("9").classList.contains("red")) {
     setGameover(true);
     setWinner("one");
     if (winner === "one") {
@@ -64,9 +62,7 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-
-  if (document.getElementById("1").classList.contains("red") && document.getElementById("4").classList.contains("red") && document.getElementById("7").classList.contains("red")) {
+  } else if (document.getElementById("1").classList.contains("red") && document.getElementById("4").classList.contains("red") && document.getElementById("7").classList.contains("red")) {
     setGameover(true);
     setWinner("one");
     if (winner === "one") {
@@ -87,9 +83,7 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-
-  if (document.getElementById("2").classList.contains("red") && document.getElementById("5").classList.contains("red") && document.getElementById("8").classList.contains("red")) {
+  } else if (document.getElementById("2").classList.contains("red") && document.getElementById("5").classList.contains("red") && document.getElementById("8").classList.contains("red")) {
     setGameover(true);
     setWinner("one");
     if (winner === "one") {
@@ -110,8 +104,7 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-  if (document.getElementById("3").classList.contains("red") && document.getElementById("6").classList.contains("red") && document.getElementById("9").classList.contains("red")) {
+  } else if (document.getElementById("3").classList.contains("red") && document.getElementById("6").classList.contains("red") && document.getElementById("9").classList.contains("red")) {
     setGameover(true);
     setWinner("one");
     if (winner === "one") {
@@ -132,8 +125,7 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-  if (document.getElementById("1").classList.contains("red") && document.getElementById("5").classList.contains("red") && document.getElementById("9").classList.contains("red")) {
+  } else if (document.getElementById("1").classList.contains("red") && document.getElementById("5").classList.contains("red") && document.getElementById("9").classList.contains("red")) {
     setGameover(true);
     setWinner("one");
     if (winner === "one") {
@@ -154,9 +146,7 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-
-  if (document.getElementById("3").classList.contains("red") && document.getElementById("5").classList.contains("red") && document.getElementById("7").classList.contains("red")) {
+  } else if (document.getElementById("3").classList.contains("red") && document.getElementById("5").classList.contains("red") && document.getElementById("7").classList.contains("red")) {
     setGameover(true);
     setWinner("one");
     if (winner === "one") {
@@ -177,11 +167,9 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-
-  if (document.getElementById("1").classList.contains("blue") && document.getElementById("2").classList.contains("blue") && document.getElementById("3").classList.contains("blue")) {
+  } else if (document.getElementById("1").classList.contains("blue") && document.getElementById("2").classList.contains("blue") && document.getElementById("3").classList.contains("blue")) {
     setGameover(true);
-    setWinner("one");
+    setWinner("two");
     if (winner === "one") {
       setbyplayer1(false);
     } else if (winner === "true") {
@@ -200,10 +188,9 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-  if (document.getElementById("4").classList.contains("blue") && document.getElementById("5").classList.contains("blue") && document.getElementById("6").classList.contains("blue")) {
+  } else if (document.getElementById("4").classList.contains("blue") && document.getElementById("5").classList.contains("blue") && document.getElementById("6").classList.contains("blue")) {
     setGameover(true);
-    setWinner("one");
+    setWinner("two");
     if (winner === "one") {
       setbyplayer1(false);
     } else if (winner === "true") {
@@ -222,10 +209,9 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-  if (document.getElementById("7").classList.contains("blue") && document.getElementById("8").classList.contains("blue") && document.getElementById("9").classList.contains("blue")) {
+  } else if (document.getElementById("7").classList.contains("blue") && document.getElementById("8").classList.contains("blue") && document.getElementById("9").classList.contains("blue")) {
     setGameover(true);
-    setWinner("one");
+    setWinner("two");
     if (winner === "one") {
       setbyplayer1(false);
     } else if (winner === "true") {
@@ -244,11 +230,9 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-
-  if (document.getElementById("1").classList.contains("blue") && document.getElementById("4").classList.contains("blue") && document.getElementById("7").classList.contains("blue")) {
+  } else if (document.getElementById("1").classList.contains("blue") && document.getElementById("4").classList.contains("blue") && document.getElementById("7").classList.contains("blue")) {
     setGameover(true);
-    setWinner("one");
+    setWinner("two");
     if (winner === "one") {
       setbyplayer1(false);
     } else if (winner === "true") {
@@ -267,11 +251,9 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-
-  if (document.getElementById("2").classList.contains("blue") && document.getElementById("5").classList.contains("blue") && document.getElementById("8").classList.contains("blue")) {
+  } else if (document.getElementById("2").classList.contains("blue") && document.getElementById("5").classList.contains("blue") && document.getElementById("8").classList.contains("blue")) {
     setGameover(true);
-    setWinner("one");
+    setWinner("two");
     if (winner === "one") {
       setbyplayer1(false);
     } else if (winner === "true") {
@@ -290,10 +272,9 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-  if (document.getElementById("3").classList.contains("blue") && document.getElementById("6").classList.contains("blue") && document.getElementById("9").classList.contains("blue")) {
+  } else if (document.getElementById("3").classList.contains("blue") && document.getElementById("6").classList.contains("blue") && document.getElementById("9").classList.contains("blue")) {
     setGameover(true);
-    setWinner("one");
+    setWinner("two");
     if (winner === "one") {
       setbyplayer1(false);
     } else if (winner === "true") {
@@ -312,10 +293,9 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-  if (document.getElementById("1").classList.contains("blue") && document.getElementById("5").classList.contains("blue") && document.getElementById("9").classList.contains("blue")) {
+  } else if (document.getElementById("1").classList.contains("blue") && document.getElementById("5").classList.contains("blue") && document.getElementById("9").classList.contains("blue")) {
     setGameover(true);
-    setWinner("one");
+    setWinner("two");
     if (winner === "one") {
       setbyplayer1(false);
     } else if (winner === "true") {
@@ -334,11 +314,9 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-
-  if (document.getElementById("3").classList.contains("blue") && document.getElementById("5").classList.contains("blue") && document.getElementById("7").classList.contains("blue")) {
+  } else if (document.getElementById("3").classList.contains("blue") && document.getElementById("5").classList.contains("blue") && document.getElementById("7").classList.contains("blue")) {
     setGameover(true);
-    setWinner("one");
+    setWinner("two");
     if (winner === "one") {
       setbyplayer1(false);
     } else if (winner === "true") {
@@ -357,8 +335,7 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("7").classList.add("no-touch");
     document.getElementById("8").classList.add("no-touch");
     document.getElementById("9").classList.add("no-touch");
-  }
-  if (
+  } else if (
     document.getElementById("1").classList.length > 1 &&
     document.getElementById("2").classList.length > 1 &&
     document.getElementById("3").classList.length > 1 &&
@@ -370,7 +347,7 @@ const checkWinner = (setGameover, setWinner, setbyplayer1, winner) => {
     document.getElementById("9").classList.length > 1
   ) {
     setGameover(true);
-    setWinner("");
+    // setWinner("tie");
   }
 };
 
